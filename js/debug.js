@@ -22,7 +22,7 @@ document.addEventListener('DOMcontentLoaded', function(){
   }
 
   let amount = 13;
-  console.log(var amount + 13); //should print out 26
+  console.log(amount + 13); //should print out 26 this have var before amount
 
   const num = "37";
   if(num = "5"){
