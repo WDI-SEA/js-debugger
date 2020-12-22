@@ -31,7 +31,7 @@ document.addEventListener('DOMcontentLoaded', function(){
   }
 
   var jackson = "dope dude";
-  if{typeof jackson === "string"}{
+  if (typeof jackson === "string") {
     console.log("jackson is a", jackson);//should print "jackson is a dope dude", which is true
   }
 
