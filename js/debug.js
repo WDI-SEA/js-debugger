@@ -1,6 +1,6 @@
 console.log("Hello Debuggers!")
 
-document.addEventListener('DOMcontentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function(){
   console.log("Let's learn how to debug.");
 
   var x = 2;
