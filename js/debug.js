@@ -7,7 +7,7 @@ document.addEventListener('DOMcontentLoaded', function(){
   let result = Math.power(x, x); //expects 2^2 equals 4
   console.log("Got", result, "Expected 4");
 
-  let y == 4;
+  let y = 4;
   let result2 = y + x; //expect 4 + 2 equals 6
   console.log("Got", result2, "Expected 6");
 
