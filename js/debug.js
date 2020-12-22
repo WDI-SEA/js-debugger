@@ -15,7 +15,7 @@ document.addEventListener('DOMcontentLoaded', function(){
   console.log("z is ", z.getWidth(), "inches wide."); //expect "z is 5 inches wide"
 
   let q = 100;
-  if(q > 50);{
+  if(q > 50) {
     console.log("q is a big number"); //this is what should print to the console
   };
   else{
