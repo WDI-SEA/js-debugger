@@ -17,10 +17,10 @@ document.addEventListener('DOMcontentLoaded', function(){
   let q = 100;
   if(q > 50) {
     console.log("q is a big number"); //this is what should print to the console
-  };
+  }
   else{
     console.log("q is less than 50 dawg")
-  };
+  }
 
   let amount = 13;
   console.log(amount + 13); //should print out 26
