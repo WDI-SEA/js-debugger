@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
   console.log("Let's learn how to debug.");
 
   var x = 2;
-  let result = Math.power(x, x); //expects 2^2 equals 4
+  let result = Math.pow(x, x); //expects 2^2 equals 4
   console.log("Got", result, "Expected 4");
 
   let y = 4;
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function(){
   console.log("Got", result2, "Expected 6");
 
   let z = { width: 5, height: 7};
-  console.log("z is ", z.getWidth(), "inches wide."); //expect "z is 5 inches wide"
+  console.log("z is ", z.width, "inches wide."); //expect "z is 5 inches wide"
 
   let q = 100;
   if(q > 50) {
