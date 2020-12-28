@@ -1,6 +1,6 @@
-var e = event; 
+
 console.log("Hello Debuggers!");
-document.addEventListener('DOMcontentLoaded', (e) => {
+document.addEventListener('DOMContentLoaded', function(){
   console.log("Let's learn how to debug.");
 
   var x = 2;
@@ -37,10 +37,10 @@ document.addEventListener('DOMcontentLoaded', (e) => {
   var actorOfTheCentury = "Nicolas Cage";
   console.log(actorofThecentury, "is a God of excellence and beauty"); //should print "Nicolas Cage is a God of excellence and beauty" which is also true.
 
-  var bestMovieEver = "American Treasure";
+  var bestMovieEver = "National Treasure";
   console.log(bestMovieEver);//should print "American Treasure"
 
 
   document.getElementById("finish").innerText = "YOU'RE ALL DONE!!";
-});
+})
 console.log(event);
