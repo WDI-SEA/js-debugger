@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', function(){
   let amount = 13;
   console.log(amount + 13); //should print out 26
 
-  const num = "37";
-  if(num = "5"){
+  let num = "37"; 
+  if(num == "5"){
     console.log("My num is", num); //This should not get printed since num is "37"
   }
 
@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function(){
     console.log("jackson is a", jackson);//should print "jackson is a dope dude", which is true
   }
 
-  var actorOfTheCentury = "Nicolas Cage";
-  console.log(actorofThecentury, "is a God of excellence and beauty"); //should print "Nicolas Cage is a God of excellence and beauty" which is also true.
+  let actor = "Nicolas Cage";
+  console.log(`${actor}, is a God of excellence and beauty`); //should print "Nicolas Cage is a God of excellence and beauty" which is also true.
 
   var bestMovieEver = "National Treasure";
   console.log(bestMovieEver);//should print "American Treasure"
