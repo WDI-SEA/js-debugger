@@ -1,6 +1,6 @@
 console.log("Hello Debuggers!")
 
-// document.addEventListener('DOMcontentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function(){
   console.log("Let's learn how to debug.");
 
   
@@ -45,4 +45,4 @@ console.log("Hello Debuggers!")
  let finished = document.querySelector("#finish")
  finished.innerText = "YOU'RE ALL DONE!!";
 
-// });
+});
