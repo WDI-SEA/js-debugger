@@ -3,25 +3,26 @@
 ## Objective
 
 By the end of this assignment you will be able to:
+
 - Open the Chrome Developer Tools
 - Read and interpret errors in the Console
 - Demonstrate how to inspect an HTML element and view its box model
 - Show an emulation of how a webpage looks on a mobile browser
 
-
 ## Your task
 
 - Fork and clone this repository
 - Read carefully through index.html for directions on how to complete your assignment
-- Debug the debug.js file as instructed. 
-    - Your console will be free of any JS errors at the end!
-    - You know you're done when the message "YOU'RE ALL DONE!!" appears in your html
+- Debug the debug.js file as instructed.
+  - Your console will be free of any JS errors at the end!
+  - You know you're done when the message "YOU'RE ALL DONE!!" appears in your html
 - After you've debugged the JS, push the changes to your forked repository
 - From your GitHub repository, create a pull request against the original
 
 ### Helpful hints
 
 If you get stuck...
+
 - Check out this [W3Schools article about common JavaScript mistakes](http://www.w3schools.com/js/js_mistakes.asp)
 - Always feel free to work with a partner!
 - Ask for help via our Slack channel
