@@ -3,11 +3,11 @@ console.log("Hello Debuggers!")
 document.addEventListener('DOMcontentLoaded', function(){
   console.log("Let's learn how to debug.");
 
-  var x = 2;
+  let x = 2;
   let result = Math.power(x, x); //expects 2^2 equals 4
   console.log("Got", result, "Expected 4");
 
-  let y == 4;
+  let y = 4;
   let result2 = y + x; //expect 4 + 2 equals 6
   console.log("Got", result2, "Expected 6");
 
@@ -15,10 +15,9 @@ document.addEventListener('DOMcontentLoaded', function(){
   console.log("z is ", z.getWidth(), "inches wide."); //expect "z is 5 inches wide"
 
   let q = 100;
-  if(q > 50);{
+  if(q > 50){
     console.log("q is a big number"); //this is what should print to the console
-  };
-  else{
+  }else{
     console.log("q is less than 50 dawg")
   };
 
