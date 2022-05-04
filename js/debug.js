@@ -29,9 +29,9 @@ document.addEventListener('DOMContentLoaded', function(){
     console.log("My num is", num); //This should not get printed since num is "37"
   }
 
-  var jason = "dope dude";
-  if(typeof jason === "string"){
-    console.log("jackson is a", jason);//should print "jackson is a dope dude", which is true
+  var jackson = "dope dude";
+  if(typeof jackson === "string"){
+    console.log("jackson is a", jackson);//should print "jackson is a dope dude", which is true
   }
 
   var actorOfTheCentury = "Nicolas Cage";
