@@ -1,6 +1,6 @@
 console.log("Hello Debuggers!")
 
-document.addEventListener('DOMcontentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function(){
   console.log("Let's learn how to debug.");
 
   let x = 2;
@@ -22,7 +22,7 @@ document.addEventListener('DOMcontentLoaded', function(){
   };
 
   let amount = 13;
-  console.log(var amount + 13); //should print out 26
+  console.log(amount + 13); //should print out 26
 
   const num = "37";
   if(num = "5"){
@@ -30,7 +30,7 @@ document.addEventListener('DOMcontentLoaded', function(){
   }
 
   var jason = "dope dude";
-  if{typeof jackson === "string"}{
+  if(typeof jackson === "string"){
     console.log("jackson is a", jasn);//should print "jackson is a dope dude", which is true
   }
 
