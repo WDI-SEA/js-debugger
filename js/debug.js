@@ -1,11 +1,11 @@
 console.log("Hello Debuggers!")
 
-document.addEventListener('DOMcontentLoaded', function(e) {
+document.addEventListener('DOMContentLoaded', function() {
   //added "e" above - not sure if this is right
   console.log("Let's learn how to debug.");
 
   let x = 2;
-  let result = Math.power(x, x); //expects 2^2 equals 4
+  let result = Math.pow(x, x); //expects 2^2 equals 4
   console.log("Got", result, "Expected 4");
 
   let y = 4;
