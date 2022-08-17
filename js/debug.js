@@ -1,5 +1,5 @@
 console.log("Hello Debuggers!")
-
+document.addEventListener('DOMContentLoaded', function(){
   console.log("Let's learn how to debug.");
 
   var x = 2;
@@ -41,3 +41,4 @@ console.log("Hello Debuggers!")
 
 
   document.getElementById('finish').innerText = "YOU'RE ALL DONE!!";
+})
