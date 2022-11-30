@@ -1,6 +1,6 @@
 console.log("Hello Debuggers!")
 
-// document.addEventListener('DOMcontentLoaded', function(){
+ document.addEventListener('DOMContentLoaded', function(){ 
   console.log("Let's learn how to debug.");
 
   var x = 2;
@@ -43,14 +43,12 @@ console.log("Hello Debuggers!")
   console.log(bestMovieEver);//should print "American Treasure"
 
 
-document.addEventListener('DOMContentLoaded', ()=> {
-  done()
-})
+
 
 const done = () => {
   const finished = document.createElement('div')
   finished.classList.add('finish')
   document.getElementById("finish").innerText = "YOU'RE ALL DONE!!";
 }
-
-// });
+ done()
+});
