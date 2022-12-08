@@ -9,7 +9,7 @@ document.addEventListener('DOMcontentLoaded', function(){
 
   let y = 4;
   let result2 = y + x; //expect 4 + 2 equals 6
-  console.log("Got", result2, "Expected 6");
+  console.log(y, '+', x, "Expected 6");
 
   let z = { width: 5, height: 7};
   console.log("z is ", z.width, "inches wide."); //expect "z is 5 inches wide"
